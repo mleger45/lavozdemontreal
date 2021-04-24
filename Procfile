@@ -1,1 +1,1 @@
-web: gunicorn lvdmbackend.wsgi
+web: gunicorn --chdir /app/lvdmbackend lvdmbackend.wsgi
