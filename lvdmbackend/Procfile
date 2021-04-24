@@ -1,1 +1,1 @@
-web: gunicorn  lvdmbackend.wsgi:application
+web: gunicorn lvdmbackend.wsgi:application
